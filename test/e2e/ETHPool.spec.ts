@@ -1,13 +1,11 @@
 import { expect } from 'chai';
 import { ethers } from 'hardhat';
-import { utils } from 'ethers';
 import {
   ETHPool,
   ETHPool__factory,
 } from '@typechained';
 import { evm } from '@utils';
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/dist/src/signers';
-import { toUnit } from '@utils/bn';
 
 const FORK_BLOCK_NUMBER = 11298165;
 

@@ -3,13 +3,9 @@ import { ethers } from 'hardhat';
 import { ETHPool, ETHPool__factory } from '@typechained';
 import { evm } from '@utils';
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/dist/src/signers';
-import { FakeContract, MockContract, MockContractFactory, smock } from '@defi-wonderland/smock';
-import { BigNumber } from '@ethersproject/bignumber';
+import { MockContract, MockContractFactory, smock } from '@defi-wonderland/smock';
 
 chai.use(smock.matchers);
-
-//note to self: will complete after ibiza
-//note to Robert: don't worry, I got you, enjoy.
 
 describe('ETHPool', function () {
   // Users
