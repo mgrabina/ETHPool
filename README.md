@@ -1,3 +1,11 @@
+### HOW TO
+
+Clone: git clone https://github.com/mgrabina/ETHPool.git
+Compile: yarn compile
+Unit testing: yarn test:unit
+E2E testing: yarn test:e2e
+Deploy: npx hardhat deploy --network ropsten
+
 # Smart Contract Challenge
 
 ## A) Challenge
